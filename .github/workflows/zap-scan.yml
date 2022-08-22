@@ -1,4 +1,4 @@
-name: CI
+name: Zap-scan
 on:
   push:
     branches: [ "main" ]
