@@ -24,14 +24,3 @@ jobs:
           target: "https://www.jenkins.io/"
           cmd_options: '-r report_html'
       
-      - name: Report
-        run : |
-             pwd
-             ls- lart
-        
-      - uses: actions/upload-artifact@v3
-        with:
-          name: my-artifact
-          path: ./report.html # or path/to/artifact
-             
-        
