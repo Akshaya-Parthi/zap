@@ -22,3 +22,4 @@ jobs:
         with:
           # Target URL
           target: "https://zimmergren.net/security-scanning-with-github-actions-and-owasp-zap/"
+          cmd_options: '-r'
